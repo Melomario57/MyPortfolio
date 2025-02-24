@@ -3482,7 +3482,7 @@ button.btn--pill {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/header-bg-3000.jpg);
+  background-image: url(../images/darkForest.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4068,6 +4068,12 @@ button.btn--pill {
   margin: 0;
   -webkit-transition: all, 0.5s;
   transition: all, 0.5s;
+}
+
+.folio-item__thumb img {
+  width: 100%;
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
 }
 
 /* on hover
@@ -4744,4 +4750,30 @@ button.btn--pill {
   .s-footer__social li {
     margin-right: 1.4rem;
   }
+}
+
+/* Portfolio projects */
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.languages .tool {
+  margin: 10px;
+}
+
+.languages .tool img {
+  width: 70px;
+  height: 70px;
 }
