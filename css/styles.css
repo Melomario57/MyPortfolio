@@ -3864,6 +3864,18 @@ button.btn--pill {
   fill: white;
 }
 
+/* ===================================================================
+ * Hero Waving Hand GIF Alignment
+ * =================================================================== */
+.wave-emoji {
+  display: inline-block;
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.15em;
+  margin: 0 0.15em;
+  object-fit: contain;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
