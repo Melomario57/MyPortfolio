@@ -4019,6 +4019,9 @@ button.btn--pill {
 .folio-list {
   max-width: 1180px;
   margin-top: var(--vspace-2_5);
+  display: flex;
+  justify-content: center;
+  gap: var(--vspace-1);
 }
 
 .folio-item__thumb {
@@ -4026,6 +4029,7 @@ button.btn--pill {
   background-color: white;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .folio-item__thumb::before {
@@ -4176,9 +4180,6 @@ button.btn--pill {
   color: white;
   border-radius: var(--border-radius);
   padding: 0 1.4rem;
-  position: absolute;
-  top: var(--vspace-1_25);
-  left: 4rem;
 }
 
 .modal-popup__details:hover,
@@ -4186,6 +4187,12 @@ button.btn--pill {
   background-color: var(--color-1);
   border-color: var(--color-1);
   color: white;
+}
+
+.modal-popup_links {
+  display: flex;
+  justify-content: start;
+  margin: 1rem;
 }
 
 /* ===================================================================
